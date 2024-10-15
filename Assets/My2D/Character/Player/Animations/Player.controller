@@ -215,6 +215,23 @@ AnimatorStateTransition:
   m_InterruptionSource: 0
   m_OrderedInterruption: 1
   m_CanTransitionToSelf: 1
+--- !u!114 &-4873113264099299321
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7de674169b963a548882d7c96b71adc8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boolName: CanMove
+  updateOnState: 0
+  updateOnStateMachine: 1
+  valueEnter: 0
+  valueExit: 1
 --- !u!114 &-4436965262850702359
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -437,9 +454,6 @@ AnimatorStateMachine:
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions:
-  - first: {fileID: -235424029726506944}
-    second:
-    - {fileID: 8969832717681199218}
   - first: {fileID: 6317671648398013915}
     second:
     - {fileID: 8712492977833509411}
@@ -448,6 +462,9 @@ AnimatorStateMachine:
   - first: {fileID: 8305637291635413200}
     second:
     - {fileID: -5966255857360587698}
+  - first: {fileID: -235424029726506944}
+    second:
+    - {fileID: 8969832717681199218}
   m_StateMachineBehaviours: []
   m_AnyStatePosition: {x: 50, y: 20, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
@@ -561,6 +578,7 @@ AnimatorStateMachine:
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours:
   - {fileID: -6813277499421178455}
+  - {fileID: -4873113264099299321}
   m_AnyStatePosition: {x: 50, y: -30, z: 0}
   m_EntryPosition: {x: 50, y: 120, z: 0}
   m_ExitPosition: {x: 780, y: -90, z: 0}
