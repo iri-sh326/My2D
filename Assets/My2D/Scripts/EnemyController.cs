@@ -32,7 +32,7 @@ namespace My2D
                 // 이미지 플립
                 transform.localScale *= new Vector2(-1, 1);
 
-                // 이동하는 방향값
+                // 실제 이동하는 방향값
                 if (value == WalkableDirection.Left)
                 {
                     directionVector = Vector2.left;
