@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Enemy_Attack
+  m_Name: Player_Attack03
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -52,7 +52,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: HitBox
+    path: HitBox03
     classID: 60
     script: {fileID: 0}
     flags: 0
@@ -60,13 +60,17 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -350750643, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
+      value: {fileID: 21300000, guid: 21ecb0f9836a1b143949342e33b94f78, type: 3}
+    - time: 0.1
+      value: {fileID: 21300000, guid: c861258b23f3a4c429213940d67003cd, type: 3}
     - time: 0.2
-      value: {fileID: -868080601, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
+      value: {fileID: 21300000, guid: 97bb490162892634dbc101acccae865d, type: 3}
     - time: 0.4
-      value: {fileID: 232866417, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
+      value: {fileID: 21300000, guid: 3359574c5f8ec0c40b9e5698b2365b9a, type: 3}
     - time: 0.5
-      value: {fileID: 1724501196, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
+      value: {fileID: 21300000, guid: 4a6b784274dc5274d8896f4631b1e880, type: 3}
+    - time: 0.6
+      value: {fileID: 21300000, guid: 60a9d5fd6964a7e47974e886be260a2b, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -80,7 +84,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 3977501853
+      path: 1791345313
       attribute: 3305885265
       script: {fileID: 0}
       typeID: 60
@@ -98,16 +102,18 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -350750643, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
-    - {fileID: -868080601, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
-    - {fileID: 232866417, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
-    - {fileID: 1724501196, guid: 959be36b09df63441b0cb8aa95759adb, type: 3}
+    - {fileID: 21300000, guid: 21ecb0f9836a1b143949342e33b94f78, type: 3}
+    - {fileID: 21300000, guid: c861258b23f3a4c429213940d67003cd, type: 3}
+    - {fileID: 21300000, guid: 97bb490162892634dbc101acccae865d, type: 3}
+    - {fileID: 21300000, guid: 3359574c5f8ec0c40b9e5698b2365b9a, type: 3}
+    - {fileID: 21300000, guid: 4a6b784274dc5274d8896f4631b1e880, type: 3}
+    - {fileID: 21300000, guid: 60a9d5fd6964a7e47974e886be260a2b, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.6
+    m_StopTime: 0.70000005
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -158,7 +164,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_Enabled
-    path: HitBox
+    path: HitBox03
     classID: 60
     script: {fileID: 0}
     flags: 0
